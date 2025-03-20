@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Home | X</title>
+  </head>
+  <body class="bg-[#000000] text-[#E6E9EA]">
+    <div id="main" class="w-full h-full flex">
+      
+      <div
+        class="nav-bar w-full flex-1/5 border-[#2F3336] overflow-y-auto flex flex-col items-center justify-start gap-2 py-6 border-r-[1px]"
+      >
+      <div class="">
+        <div class="logo flex items-start w-full px-4 mb-2">
+          <svg
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk h-[30px]"
+            fill="white"
+          >
+            <g>
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="navigation flex flex-col items-start justify-center gap-2">
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/home.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">Home</span>
+          </div>
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/explore.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">Explore</span>
+          </div>
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/notificaiton.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">Notifications</span>
+          </div>
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/message.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">Messages</span>
+          </div>
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/ai.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">Grok</span>
+          </div>
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/bookmark.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">Bookmarks</span>
+          </div>
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/community.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">Communities</span>
+          </div>
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/premium.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">Premium</span>
+          </div>
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/verifiedOrgs.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">Verified Orgs</span>
+          </div>
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/profile.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">Profile</span>
+          </div>
+          <div
+            class="nav flex items-end justify-center gap-2 w-fit p-2 px-4 rounded-full cursor-pointer hover:bg-[#181818] duration-300"
+          >
+            <img src="../assets/more.svg" alt="" class="h-[35px]" />
+            <span class="text-xl font-medium">More</span>
+          </div>
+
+          <div
+            class="flex cursor-pointer items-center justify-center rounded-full bg-white text-black p-2 font-bold w-full duration-300 hover:bg-black hover:text-white hover:border-[1px] border-white"
+          >
+            <p>Post</p>
+          </div>
+        </div>
+        <div
+          class="profile flex items-center justify-center gap-4 p-4 cursor-pointer hover:bg-[#181818] rounded-full mt-4"
+        >
+          <div class="py-0">
+            <img
+              src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+              class="h-[50px] w-[50px] object-cover object-center rounded-full"
+            />
+          </div>
+          <div class="name">
+            <p>Asrar Ahammad</p>
+            <p class="opacity-50">@asrar_ahammad</p>
+          </div>
+          <div class="more">
+            <img src="../assets/more.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="posts w-full flex-1/2 border-r-[1px] border-[#2F3336]">
+        <div class="nav sticky top-0 backdrop-blur-xl flex items-center justify-center border-b-[1px] border-[#2F3336]">
+          <div class="w-full flex items-center justify-center hover:bg-[#ffffff26] cursor-pointer py-4">
+            <p class="h-full border-b-[4px] border-[#1C9BEF] font-semibold">For you</p>
+          </div>
+          <div class="w-full flex items-center justify-center hover:bg-[#ffffff26]  cursor-pointer py-4">
+            <p class="font-semibold h-full opacity-50">Following</p>
+          </div>
+        </div>
+
+        <div class="post-it border-b-[1px] border-[#2F3336] py-4">
+          <div class="write w-full flex items-center justify-start gap-5 px-4 py-8">
+            <img src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D" alt="" class="h-[55px] w-[55px] object-cover object-center rounded-full">
+            <textarea name="" id="" placeholder="What's happening?" class="resize-none w-full text-xl focus:outline-none"></textarea>
+          </div>
+          <div class="icons px-22 flex items-start justify-between">
+            <div class="ic flex items-center justify-start gap-4">
+              <img src="../assets/ai.svg" alt="" class="h-[25px] w-[25px] cursor-pointer hover:opacity-60">
+              <img src="../assets/explore.svg" alt="" class="h-[25px] w-[25px] cursor-pointer hover:opacity-60">
+              <img src="../assets/verifiedOrgs.svg" alt="" class="h-[25px] w-[25px] cursor-pointer hover:opacity-60">
+              <img src="../assets/profile.svg" alt="" class="h-[25px] w-[25px] cursor-pointer hover:opacity-60">
+              <img src="../assets/premium.svg" alt="" class="h-[25px] w-[25px] cursor-pointer hover:opacity-60">
+              <img src="../assets/message.svg" alt="" class="h-[25px] w-[25px] cursor-pointer hover:opacity-60">
+            </div>
+            <div class="post-btn bg-white text-black px-4 py-2 rounded-full font-semibold cursor-pointer hover:bg-sky-400 hover:text-white duration-200">
+              <p>Post</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="user-post flex w-full items-start justify-between p-4 border-b-[1px] border-[#2F3336]">
+          <div class="photo h-full flex items-start flex-col justify-start">
+            <img src="https://images.unsplash.com/photo-1542309667-2a115d1f54c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="" class="h-[45px] w-[45px] object-cover object-center rounded-full">
+          </div>
+          <div class="content w-full">
+            <div class="details flex w-full items-center justify-between">
+              <div class="name px-4">
+                <p class="font-bold">Captian Cat <span class="opacity-50 font-light">@captian_cat</span><span class="opacity-50 font-light"> · </span><span class="opacity-50 font-light">12h</span></p>
+              </div>
+              <div class="name-menu flex opacity-50">
+                <img src="../assets/ai.svg" alt="">
+                <img src="../assets/more.svg" alt="">
+              </div>
+            </div>
+            <div class="px-4 mt-2">
+              <div class="desc">The Titanic didn't sink like you've been told.
+                It was not just an iceberg, but human errors, ignored warnings and fatal decisions.This is the truth of what really sank the "unsinkable" ship:</div>
+              <div class="photo p-6 flex items-center justify-start">
+                <img src="https://images.unsplash.com/photo-1727567682406-6a3c15a6e8b8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D" alt="" class="object-center object-cover rounded-2xl w-full h-10/12 ">
+              </div>
+              <div class="icons flex items-center justify-around">
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/comment.svg" alt="" class="w-4 h-4l">
+                  <span>41</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-green-500 rounded-full">
+                  <img src="../assets/repost.svg" alt="" class="w-4 h-4">
+                  <span>34</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-pink-500 rounded-full">
+                  <img src="../assets/like.svg" alt="" class="w-4 h-4">
+                  <span>12</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/views.svg" alt="" class="w-4 h-4">
+                  <span>674</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/bookmark.svg" alt="" class="w-4 h-4">
+                  </div>
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/share.svg" alt="" class="w-4 h-4">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-post flex w-full items-start justify-between p-4 border-b-[1px] border-[#2F3336]">
+          <div class="photo h-full flex items-start flex-col justify-start">
+            <img src="https://images.unsplash.com/photo-1542309667-2a115d1f54c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="" class="h-[45px] w-[45px] object-cover object-center rounded-full">
+          </div>
+          <div class="content w-full">
+            <div class="details flex w-full items-center justify-between">
+              <div class="name px-4">
+                <p class="font-bold">Captian Cat <span class="opacity-50 font-light">@captian_cat</span><span class="opacity-50 font-light"> · </span><span class="opacity-50 font-light">12h</span></p>
+              </div>
+              <div class="name-menu flex opacity-50">
+                <img src="../assets/ai.svg" alt="">
+                <img src="../assets/more.svg" alt="">
+              </div>
+            </div>
+            <div class="px-4 mt-2">
+              <div class="desc">The Titanic didn't sink like you've been told.
+                It was not just an iceberg, but human errors, ignored warnings and fatal decisions.This is the truth of what really sank the "unsinkable" ship:</div>
+              <div class="photo p-6 flex items-center justify-start">
+                <img src="https://images.unsplash.com/photo-1741524916198-c1ddeaf89bc9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2Mnx8fGVufDB8fHx8fA%3D%3D" alt="" class="object-center object-cover rounded-2xl w-full h-10/12">
+              </div>
+              <div class="icons flex items-center justify-around">
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/comment.svg" alt="" class="w-4 h-4 ">
+                  <span>41</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-green-500 rounded-full">
+                  <img src="../assets/repost.svg" alt="" class="w-4 h-4">
+                  <span>34</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-pink-500 rounded-full">
+                  <img src="../assets/like.svg" alt="" class="w-4 h-4">
+                  <span>12</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/views.svg" alt="" class="w-4 h-4">
+                  <span>674</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/bookmark.svg" alt="" class="w-4 h-4">
+                  </div>
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/share.svg" alt="" class="w-4 h-4">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-post flex w-full items-start justify-between p-4 border-b-[1px] border-[#2F3336]">
+          <div class="photo h-full flex items-start flex-col justify-start">
+            <img src="https://images.unsplash.com/photo-1542309667-2a115d1f54c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="" class="h-[45px] w-[45px] object-cover object-center rounded-full">
+          </div>
+          <div class="content w-full">
+            <div class="details flex w-full items-center justify-between">
+              <div class="name px-4">
+                <p class="font-bold">Captian Cat <span class="opacity-50 font-light">@captian_cat</span><span class="opacity-50 font-light"> · </span><span class="opacity-50 font-light">12h</span></p>
+              </div>
+              <div class="name-menu flex opacity-50">
+                <img src="../assets/ai.svg" alt="">
+                <img src="../assets/more.svg" alt="">
+              </div>
+            </div>
+            <div class="px-4 mt-2">
+              <div class="desc">The Titanic didn't sink like you've been told.
+                It was not just an iceberg, but human errors, ignored warnings and fatal decisions.This is the truth of what really sank the "unsinkable" ship:</div>
+              <div class="photo p-6 flex items-center justify-start">
+                <img src="https://plus.unsplash.com/premium_photo-1731501020321-ec3696d9fcde?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2N3x8fGVufDB8fHx8fA%3D%3D" alt="" class="object-center object-cover rounded-2xl w-full h-10/12">
+              </div>
+              <div class="icons flex items-center justify-around">
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/comment.svg" alt="" class="w-4 h-4 ">
+                  <span>41</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-green-500 rounded-full">
+                  <img src="../assets/repost.svg" alt="" class="w-4 h-4">
+                  <span>34</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-pink-500 rounded-full">
+                  <img src="../assets/like.svg" alt="" class="w-4 h-4">
+                  <span>12</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/views.svg" alt="" class="w-4 h-4">
+                  <span>674</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/bookmark.svg" alt="" class="w-4 h-4">
+                  </div>
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/share.svg" alt="" class="w-4 h-4">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-post flex w-full items-start justify-between p-4 border-b-[1px] border-[#2F3336]">
+          <div class="photo h-full flex items-start flex-col justify-start">
+            <img src="https://images.unsplash.com/photo-1542309667-2a115d1f54c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="" class="h-[45px] w-[45px] object-cover object-center rounded-full">
+          </div>
+          <div class="content w-full">
+            <div class="details flex w-full items-center justify-between">
+              <div class="name px-4">
+                <p class="font-bold">Captian Cat <span class="opacity-50 font-light">@captian_cat</span><span class="opacity-50 font-light"> · </span><span class="opacity-50 font-light">12h</span></p>
+              </div>
+              <div class="name-menu flex opacity-50">
+                <img src="../assets/ai.svg" alt="">
+                <img src="../assets/more.svg" alt="">
+              </div>
+            </div>
+            <div class="px-4 mt-2">
+              <div class="desc">The Titanic didn't sink like you've been told.
+                It was not just an iceberg, but human errors, ignored warnings and fatal decisions.This is the truth of what really sank the "unsinkable" ship:</div>
+              <div class="photo p-6 flex items-center justify-start">
+                <img src="https://images.unsplash.com/photo-1731964877414-217cdc9b5b37?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4NXx8fGVufDB8fHx8fA%3D%3D" alt="" class="object-center object-cover rounded-2xl w-full h-10/12">
+              </div>
+              <div class="icons flex items-center justify-around">
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/comment.svg" alt="" class="w-4 h-4 ">
+                  <span>41</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-green-500 rounded-full">
+                  <img src="../assets/repost.svg" alt="" class="w-4 h-4">
+                  <span>34</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-pink-500 rounded-full">
+                  <img src="../assets/like.svg" alt="" class="w-4 h-4">
+                  <span>12</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/views.svg" alt="" class="w-4 h-4">
+                  <span>674</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/bookmark.svg" alt="" class="w-4 h-4">
+                  </div>
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/share.svg" alt="" class="w-4 h-4">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-post flex w-full items-start justify-between p-4 border-b-[1px] border-[#2F3336]">
+          <div class="photo h-full flex items-start flex-col justify-start">
+            <img src="https://images.unsplash.com/photo-1542309667-2a115d1f54c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="" class="h-[45px] w-[45px] object-cover object-center rounded-full">
+          </div>
+          <div class="content w-full">
+            <div class="details flex w-full items-center justify-between">
+              <div class="name px-4">
+                <p class="font-bold">Captian Cat <span class="opacity-50 font-light">@captian_cat</span><span class="opacity-50 font-light"> · </span><span class="opacity-50 font-light">12h</span></p>
+              </div>
+              <div class="name-menu flex opacity-50">
+                <img src="../assets/ai.svg" alt="">
+                <img src="../assets/more.svg" alt="">
+              </div>
+            </div>
+            <div class="px-4 mt-2">
+              <div class="desc">The Titanic didn't sink like you've been told.
+                It was not just an iceberg, but human errors, ignored warnings and fatal decisions.This is the truth of what really sank the "unsinkable" ship:</div>
+              <div class="photo p-6 flex items-center justify-start">
+                <img src="https://plus.unsplash.com/premium_photo-1731501020317-78ac0a32b6f2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4OHx8fGVufDB8fHx8fA%3D%3D" alt="" class="object-center object-cover rounded-2xl w-full h-10/12">
+              </div>
+              <div class="icons flex items-center justify-around">
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/comment.svg" alt="" class="w-4 h-4 ">
+                  <span>41</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-green-500 rounded-full">
+                  <img src="../assets/repost.svg" alt="" class="w-4 h-4">
+                  <span>34</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-pink-500 rounded-full">
+                  <img src="../assets/like.svg" alt="" class="w-4 h-4">
+                  <span>12</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/views.svg" alt="" class="w-4 h-4">
+                  <span>674</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/bookmark.svg" alt="" class="w-4 h-4">
+                  </div>
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/share.svg" alt="" class="w-4 h-4">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-post flex w-full items-start justify-between p-4 border-b-[1px] border-[#2F3336]">
+          <div class="photo h-full flex items-start flex-col justify-start">
+            <img src="https://images.unsplash.com/photo-1542309667-2a115d1f54c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="" class="h-[45px] w-[45px] object-cover object-center rounded-full">
+          </div>
+          <div class="content w-full">
+            <div class="details flex w-full items-center justify-between">
+              <div class="name px-4">
+                <p class="font-bold">Captian Cat <span class="opacity-50 font-light">@captian_cat</span><span class="opacity-50 font-light"> · </span><span class="opacity-50 font-light">12h</span></p>
+              </div>
+              <div class="name-menu flex opacity-50">
+                <img src="../assets/ai.svg" alt="">
+                <img src="../assets/more.svg" alt="">
+              </div>
+            </div>
+            <div class="px-4 mt-2">
+              <div class="desc">The Titanic didn't sink like you've been told.
+                It was not just an iceberg, but human errors, ignored warnings and fatal decisions.This is the truth of what really sank the "unsinkable" ship:</div>
+              <div class="photo p-6 flex items-center justify-start">
+                <img src="https://images.unsplash.com/photo-1728041781089-e7b9458421cd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4OXx8fGVufDB8fHx8fA%3D%3D" alt="" class="object-center object-cover rounded-2xl w-full h-10/12">
+              </div>
+              <div class="icons flex items-center justify-around">
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/comment.svg" alt="" class="w-4 h-4 ">
+                  <span>41</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-green-500 rounded-full">
+                  <img src="../assets/repost.svg" alt="" class="w-4 h-4">
+                  <span>34</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-pink-500 rounded-full">
+                  <img src="../assets/like.svg" alt="" class="w-4 h-4">
+                  <span>12</span>
+                </div>
+                <div class="ic flex items-center justify-center gap-2 p-2 cursor-pointer hover:bg-sky-500 rounded-full">
+                  <img src="../assets/views.svg" alt="" class="w-4 h-4">
+                  <span>674</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/bookmark.svg" alt="" class="w-4 h-4">
+                  </div>
+                  <div class="ic flex items-center justify-center gap-2 cursor-pointer hover:bg-sky-500 rounded-full p-2">
+                    <img src="../assets/share.svg" alt="" class="w-4 h-4">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="explore w-full flex-1/5 p-6">
+        <div class="">
+        <div class="relative search w-full">
+          <img src="../assets/search.svg" alt="" class="absolute left-2 bottom-2">
+          <input type="search" name="" id="" placeholder="Search" class="rounded-3xl border-[1px] border-[#2F3336] p-2 pl-10 focus:outline-none w-full">
+        </div>
+        <div class="happening border-[1px] border-[#2F3336] mt-6 p-4 rounded-2xl">
+          <h2 class="font-semibold text-2xl mb-4">What’s happening</h2>
+          <div class="flex items-start justify-start gap-4 my-6">
+            <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2F0fGVufDB8fDB8fHww" alt="" class="h-[80px] w-[80px] object-cover object-center rounded-2xl">
+            <div class="">
+              <h3 class="font-semibold leading-none">Cat in the Earth</h3>
+              <span class="opacity-50 text-xs leading-none">LIVE</span>
+            </div>
+          </div>
+          <div class="flex items-start justify-between my-6">
+            <div class="">
+              <p class="opacity-50 text-xs">Trending in India</p>
+              <p class="font-semibold">चित्रा त्रिपाठी</p>
+              <p class="opacity-50 text-xs">3,938 posts</p>
+            </div>
+            <div class="">
+              <img src="../assets/more.svg" alt="" class="opacity-50">
+            </div>
+          </div>
+          <div class="flex items-start justify-between my-6">
+            <div class="">
+              <p class="opacity-50 text-xs">Technology · Trending</p>
+              <p class="font-semibold">Vision pro</p>
+              <p class="opacity-50 text-xs">3,938 posts</p>
+            </div>
+            <div class="">
+              <img src="../assets/more.svg" alt="" class="opacity-50">
+            </div>
+          </div>
+          <div class="flex items-start justify-between my-6">
+            <div class="">
+              <p class="opacity-50 text-xs">Space</p>
+              <p class="font-semibold">spaceX</p>
+              <p class="opacity-50 text-xs">3,938 posts</p>
+            </div>
+            <div class="">
+              <img src="../assets/more.svg" alt="" class="opacity-50">
+            </div>
+          </div>
+          <div class="flex items-start justify-between mb-6">
+            <div class="">
+              <p class="opacity-50 text-xs">Entertainment · Trending</p>
+              <p class="font-semibold">#Samantha</p>
+              <p class="opacity-50 text-xs">3,938 posts</p>
+            </div>
+            <div class="">
+              <img src="../assets/more.svg" alt="" class="opacity-50">
+            </div>
+          </div>
+          <a href="#" class="text-[#1C9BEF] text-sm hover:underline">Show more</a>
+        </div>
+        <div class="follow border-[1px] border-[#2F3336] mt-6 p-4 rounded-2xl">
+          <h2 class="font-semibold text-xl">Who to follow</h2>
+          <div class="">
+            <div class="profile my-4 flex items-center justify-between">
+              <div class="flex gap-2">
+                <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2F0fGVufDB8fDB8fHww" alt="" class="h-[45px] w-[45px] object-center object-cover rounded-full">
+                <div class=" flex flex-col items-start justify-start">
+                  <p class="font-semibold">Cat Minister</p>
+                  <p class="opacity-50 font-light">@cat_minister</p>
+                </div>
+              </div>
+              <div class="">
+                <button class="bg-white text-black font-semibold px-4 py-2 rounded-full cursor-pointer hover:bg-sky-400 hover:text-white duration-200">Follow</button>
+              </div>
+
+            </div>
+            <div class="profile my-4 flex items-center justify-between">
+              <div class="flex gap-2">
+                <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2F0fGVufDB8fDB8fHww" alt="" class="h-[45px] w-[45px] object-center object-cover rounded-full">
+                <div class=" flex flex-col items-start justify-start">
+                  <p class="font-semibold">Cat King</p>
+                  <p class="opacity-50 font-light">@cat_king</p>
+                </div>
+              </div>
+              <div class="">
+                <button class="bg-white text-black font-semibold px-4 py-2 rounded-full cursor-pointer hover:bg-sky-400 hover:text-white duration-200">Follow</button>
+              </div>
+
+            </div>
+            <div class="profile my-4 flex items-center justify-between">
+              <div class="flex gap-2">
+                <img src="https://plus.unsplash.com/premium_photo-1667030474693-6d0632f97029?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2F0fGVufDB8fDB8fHww" alt="" class="h-[45px] w-[45px] object-center object-cover rounded-full">
+                <div class=" flex flex-col items-start justify-start">
+                  <p class="font-semibold">Cat Grumpy</p>
+                  <p class="opacity-50 font-light">@cat_grumpy</p>
+                </div>
+              </div>
+              <div class="">
+                <button class="bg-white text-black font-semibold px-4 py-2 rounded-full cursor-pointer hover:bg-sky-400 hover:text-white duration-200">Follow</button>
+              </div>
+
+            </div>
+            <div class="profile my-4 flex items-center justify-between">
+              <div class="flex gap-2">
+                <img src="https://images.unsplash.com/photo-1561948955-570b270e7c36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhdHxlbnwwfHwwfHx8MA%3D%3D" alt="" class="h-[45px] w-[45px] object-center object-cover rounded-full">
+                <div class=" flex flex-col items-start justify-start">
+                  <p class="font-semibold">Cat Innocent</p>
+                  <p class="opacity-50 font-light">@cat_innocent</p>
+                </div>
+              </div>
+              <div class="">
+                <button class="bg-white text-black font-semibold px-4 py-2 rounded-full cursor-pointer hover:bg-sky-400 hover:text-white duration-200">Follow</button>
+              </div>
+
+            </div>
+            <div class="profile my-4 flex items-center justify-between">
+              <div class="flex gap-2">
+                <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhdHxlbnwwfHwwfHx8MA%3D%3D" alt="" class="h-[45px] w-[45px] object-center object-cover rounded-full">
+                <div class=" flex flex-col items-start justify-start">
+                  <p class="font-semibold">Cat Happy</p>
+                  <p class="opacity-50 font-light">@cat_happy</p>
+                </div>
+              </div>
+              <div class="">
+                <button class="bg-white text-black font-semibold px-4 py-2 rounded-full cursor-pointer hover:bg-sky-400 hover:text-white duration-200">Follow</button>
+              </div>
+            </div>
+            <a href="#" class="text-[#1C9BEF] text-sm hover:underline">Show more</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
